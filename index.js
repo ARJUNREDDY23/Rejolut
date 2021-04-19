@@ -16,6 +16,12 @@ let payoutInfoIcon = document.getElementById("payoutInfoIcon");
 let warningCancelIcon = document.getElementById("warningCancelIcon");
 let warningContainer = document.getElementById("warningContainer");
 let lgNavBackToSection = document.getElementById("lgNavBackToSection");
+let profitIcon = document.getElementById("profitIcon");
+let profitInfoParagraph = document.getElementById("profitInfoParagraph");
+
+profitIcon.onclick = function() {
+    profitInfoParagraph.classList.toggle("d-none");
+}
 
 lgNavBackToSection.onclick = function() {
     lgProfileCard.classList.add("d-none");
