@@ -678,6 +678,7 @@
 
     .lg-profile-card {
         position: absolute;
+        z-index: 1;
         right: 0px;
         top: 50px;
         width: 180px;
